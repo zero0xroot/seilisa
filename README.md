@@ -1,47 +1,77 @@
-Seilisa — Real‑Time Sei EVM Telegram Bot
-Lightweight Telegram bot to monitor Sei EVM in real time.
+# Seilisa — Real-Time Sei EVM Telegram Bot
 
-What it does
-Check SEI wallet balance with USD estimate
+A lightweight Telegram bot to monitor **Sei EVM** wallets in real time.  
 
-Get token prices via CoinGecko
+---
 
-Watch wallets and receive instant transaction alerts
+## 🚀 Features
 
-Manage a personal watchlist
+- 🔹 **Check SEI wallet balance** with USD estimate  
+- 🔹 **Fetch token prices** via CoinGecko  
+- 🔹 **Watch wallets** and receive instant transaction alerts  
+- 🔹 **Manage a personal watchlist** (add/remove wallets)  
 
-Commands
-/start, /help
+---
 
-/balance <wallet_address>
+## 📖 Commands
 
-/price <coingecko_id>
+| Command | Description |
+|---------|-------------|
+| `/start`, `/help` | Show help message |
+| `/balance <wallet_address>` | Check wallet balance in SEI + USD |
+| `/price <coingecko_id>` | Get token price from CoinGecko |
+| `/watch <wallet_address>` | Add wallet to personal watchlist |
+| `/watchlist` | View all watched wallets |
 
-/watch <wallet_address>
+---
 
-/watchlist
+## 🛠️ Tech Stack
 
-Tech
-Telegram Bot API (webhook + replies)
+- **Telegram Bot API** → webhook + reply commands  
+- **Sei EVM JSON-RPC** → `eth_getBalance`, wei → SEI helper  
+- **CoinGecko API** → live token prices  
+- **SQLite** → store watchlists + last transaction IDs  
+- **Cron Worker** → polls Sei EVM and pushes alerts  
 
-Sei EVM JSON‑RPC (eth_getBalance), wei→eth helper
+---
 
-CoinGecko Simple Price API
+## ⚙️ Setup
 
-SQLite for wallets + last_tx_id
+### Requirements
+- PHP 8+ with `curl` and `sqlite3` extensions  
+- HTTPS server for webhook  
 
-Cron worker for polling and alerts
+### Steps
+1. Clone the repo and install dependencies.  
+2. Configure environment variables:
+   ```bash
+   TELEGRAM_BOT_TOKEN=your_bot_token
+   SEI_RPC_URL=https://sei-evm-rpc-url
+   TELEGRAM_ALLOWED_CHATS=123456789,987654321
+   ```
+3. Set webhook for your bot to `webhook.php`.  
+4. Run `cron-tx.php` every minute via cron:  
+   ```bash
+   * * * * * php /path/to/cron-tx.php
+   ```
 
-Setup
-PHP 8+ with curl and SQLite
+---
 
-Set webhook to webhook.php (HTTPS)
+## 🔒 Security Notes
 
-Run cron-tx.php via cron (e.g., every minute)
+- Never commit secrets (bot tokens, RPC URLs, etc.). Use **environment variables**.  
+- Restrict usage with **allowed chat IDs** to prevent abuse.  
 
-Configure: TELEGRAM_BOT_TOKEN, SEI_RPC_URL, optional TELEGRAM_ALLOWED_CHATS
+---
 
-Security
-Don’t commit secrets; use env vars
+## 📌 Example
 
-Restrict access with allowed chat IDs
+```bash
+/user ➝ /balance 0x1234abcd...
+/bot ➝ Balance: 50.123 SEI ($12.45)
+```
+
+---
+
+## 📜 License
+MIT  
