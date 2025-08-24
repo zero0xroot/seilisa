@@ -1,0 +1,67 @@
+[2025-08-24 20:35:21] BCMath extension not available, using float division as fallback
+[2025-08-24 20:35:21] cron-tx.php completed
+[2025-08-24 20:37:39] BCMath extension not available, using float division as fallback
+[2025-08-24 20:37:39] Fetching transactions for 0xaa276d609fd0e9f48438c06e8e82d2b61f61f47c
+[2025-08-24 20:37:40] Found 4 transactions for 0xaa276d609fd0e9f48438c06e8e82d2b61f61f47c
+[2025-08-24 20:37:40] First time setup, setting last_tx_id to 0x75f86180ef85f0abe8d2bce907e5fc6d5722bd39bf986711e57e9815895e0b36 (Result: Failed)
+[2025-08-24 20:37:40] cron-tx.php completed
+[2025-08-24 20:38:15] BCMath extension not available, using float division as fallback
+[2025-08-24 20:38:15] Fetching transactions for 0xaa276d609fd0e9f48438c06e8e82d2b61f61f47c
+[2025-08-24 20:38:16] Found 5 transactions for 0xaa276d609fd0e9f48438c06e8e82d2b61f61f47c
+[2025-08-24 20:38:16] Found 1 new transactions for 0xaa276d609fd0e9f48438c06e8e82d2b61f61f47c
+[2025-08-24 20:38:16] Raw value for tx 0x089b693fffe0bdc63e22ff3e8b4f877529435abc7363ae725ed525cf0dafdf4d: 990000000000000000
+[2025-08-24 20:38:16] Fallback conversion for tx 0x089b693fffe0bdc63e22ff3e8b4f877529435abc7363ae725ed525cf0dafdf4d: 0.990000 SEI
+[2025-08-24 20:38:16] Alert sent for tx 0x089b693fffe0bdc63e22ff3e8b4f877529435abc7363ae725ed525cf0dafdf4d
+[2025-08-24 20:38:16] Updated last_tx_id to 0x089b693fffe0bdc63e22ff3e8b4f877529435abc7363ae725ed525cf0dafdf4d (Result: Failed)
+[2025-08-24 20:38:16] Database update failed, please check AlertStore::updateLastTx and SQLite permissions
+[2025-08-24 20:38:16] cron-tx.php completed
+[2025-08-24 20:40:28] BCMath extension not available, using float division as fallback
+[2025-08-24 20:40:28] Fetching transactions for 0xaa276d609fd0e9f48438c06e8e82d2b61f61f47c
+[2025-08-24 20:40:28] Found 5 transactions for 0xaa276d609fd0e9f48438c06e8e82d2b61f61f47c
+[2025-08-24 20:40:28] No new transactions for 0xaa276d609fd0e9f48438c06e8e82d2b61f61f47c
+[2025-08-24 20:40:28] cron-tx.php completed
+[2025-08-24 20:41:11] BCMath extension not available, using float division as fallback
+[2025-08-24 20:41:11] Fetching transactions for 0xaa276d609fd0e9f48438c06e8e82d2b61f61f47c
+[2025-08-24 20:41:11] Found 6 transactions for 0xaa276d609fd0e9f48438c06e8e82d2b61f61f47c
+[2025-08-24 20:41:11] Found 1 new transactions for 0xaa276d609fd0e9f48438c06e8e82d2b61f61f47c
+[2025-08-24 20:41:11] Raw value for tx 0x3bbbd6534b3b2a26c7d8d64fc27fa5e8cd6d1f1603ae4d2033fe71be8f232c13: 990000000000000000
+[2025-08-24 20:41:11] Fallback conversion for tx 0x3bbbd6534b3b2a26c7d8d64fc27fa5e8cd6d1f1603ae4d2033fe71be8f232c13: 0.990000 SEI
+[2025-08-24 20:41:13] Alert sent for tx 0x3bbbd6534b3b2a26c7d8d64fc27fa5e8cd6d1f1603ae4d2033fe71be8f232c13
+[2025-08-24 20:41:13] Updated last_tx_id to 0x3bbbd6534b3b2a26c7d8d64fc27fa5e8cd6d1f1603ae4d2033fe71be8f232c13 (Result: Failed)
+[2025-08-24 20:41:13] Database update failed, please check AlertStore::updateLastTx and SQLite permissions
+[2025-08-24 20:41:13] cron-tx.php completed
+[2025-08-24 20:45:01] BCMath extension not available, using float division as fallback
+[2025-08-24 20:45:01] Fetching transactions for 0xaa276d609fd0e9f48438c06e8e82d2b61f61f47c
+[2025-08-24 20:45:02] Found 7 transactions for 0xaa276d609fd0e9f48438c06e8e82d2b61f61f47c
+[2025-08-24 20:45:02] Found 1 new transactions for 0xaa276d609fd0e9f48438c06e8e82d2b61f61f47c
+[2025-08-24 20:45:02] Raw value for tx 0x219f3bbada5c9e00d66053fa7d185b84a4b2a8dfa2537d9d1241e861bc39abd5: 990000000000000000
+[2025-08-24 20:45:02] Fallback conversion for tx 0x219f3bbada5c9e00d66053fa7d185b84a4b2a8dfa2537d9d1241e861bc39abd5: 0.990000 SEI
+[2025-08-24 20:45:02] Alert sent for tx 0x219f3bbada5c9e00d66053fa7d185b84a4b2a8dfa2537d9d1241e861bc39abd5
+[2025-08-24 20:45:02] Updated last_tx_id to 0x219f3bbada5c9e00d66053fa7d185b84a4b2a8dfa2537d9d1241e861bc39abd5 (Result: Failed)
+[2025-08-24 20:45:02] Database update failed, please check AlertStore::updateLastTx and SQLite permissions
+[2025-08-24 20:45:02] cron-tx.php completed
+[2025-08-24 20:45:31] BCMath extension not available, using float division as fallback
+[2025-08-24 20:45:31] Fetching transactions for 0xaa276d609fd0e9f48438c06e8e82d2b61f61f47c
+[2025-08-24 20:45:32] Found 7 transactions for 0xaa276d609fd0e9f48438c06e8e82d2b61f61f47c
+[2025-08-24 20:45:32] No new transactions for 0xaa276d609fd0e9f48438c06e8e82d2b61f61f47c
+[2025-08-24 20:45:32] cron-tx.php completed
+[2025-08-24 20:50:20] BCMath extension not available, using float division as fallback
+[2025-08-24 20:50:20] Fetching transactions for 0xaa276d609fd0e9f48438c06e8e82d2b61f61f47c
+[2025-08-24 20:50:20] Found 7 transactions for 0xaa276d609fd0e9f48438c06e8e82d2b61f61f47c
+[2025-08-24 20:50:20] No new transactions for 0xaa276d609fd0e9f48438c06e8e82d2b61f61f47c
+[2025-08-24 20:50:20] cron-tx.php completed
+[2025-08-24 20:55:12] BCMath extension not available, using float division as fallback
+[2025-08-24 20:55:12] Fetching transactions for 0xaa276d609fd0e9f48438c06e8e82d2b61f61f47c
+[2025-08-24 20:55:13] Found 7 transactions for 0xaa276d609fd0e9f48438c06e8e82d2b61f61f47c
+[2025-08-24 20:55:13] No new transactions for 0xaa276d609fd0e9f48438c06e8e82d2b61f61f47c
+[2025-08-24 20:55:13] cron-tx.php completed
+[2025-08-24 21:00:57] BCMath extension not available, using float division as fallback
+[2025-08-24 21:00:57] Fetching transactions for 0xaa276d609fd0e9f48438c06e8e82d2b61f61f47c
+[2025-08-24 21:00:58] Found 7 transactions for 0xaa276d609fd0e9f48438c06e8e82d2b61f61f47c
+[2025-08-24 21:00:58] No new transactions for 0xaa276d609fd0e9f48438c06e8e82d2b61f61f47c
+[2025-08-24 21:00:58] cron-tx.php completed
+[2025-08-24 21:05:12] BCMath extension not available, using float division as fallback
+[2025-08-24 21:05:12] Fetching transactions for 0xaa276d609fd0e9f48438c06e8e82d2b61f61f47c
+[2025-08-24 21:05:13] Found 7 transactions for 0xaa276d609fd0e9f48438c06e8e82d2b61f61f47c
+[2025-08-24 21:05:13] No new transactions for 0xaa276d609fd0e9f48438c06e8e82d2b61f61f47c
+[2025-08-24 21:05:13] cron-tx.php completed
